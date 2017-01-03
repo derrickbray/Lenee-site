@@ -1,25 +1,2 @@
 @import 'reset';
-
-.nav {
-  padding: 2rem;
-  background: #37474f;
-  color: white;
-}
-
-.nav__logo {
-  margin: 0;
-}
-
-.nav__flex {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav__links {
-  display: flex;
-  margin: 0;
-
-  &-link {
-    margin: 0.5rem 1rem;
-  }
-}
+@import 'nav';
