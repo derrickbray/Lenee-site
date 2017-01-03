@@ -4,13 +4,14 @@
   color: $c-main-text;
 }
 
-.nav__logo {
-  margin: 0;
-}
-
 .nav__flex {
   display: flex;
   justify-content: space-between;
+  margin: 0 -1rem;
+}
+
+.nav__logo {
+  margin: 0 1rem;
 }
 
 .nav__links {
