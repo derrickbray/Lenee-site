@@ -12,6 +12,11 @@
 
 .nav__logo {
   margin: 0 1rem;
+
+  a {
+    color: $c-main-text;
+    text-decoration: none;
+  }
 }
 
 .nav__links {
@@ -20,5 +25,10 @@
 
   &-link {
     margin: 0.5rem 1rem;
+
+    a {
+      color: $c-main-text;
+      text-decoration: none;
+    }
   }
 }
