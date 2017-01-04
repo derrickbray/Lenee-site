@@ -3,3 +3,20 @@
   background: url('../white-door.jpg') no-repeat fixed;
   background-size: cover;
 }
+
+.quote-item {
+  padding: 4rem 0;
+  color: $c-primary;
+}
+
+.quote {
+  font-size: 2rem;
+}
+
+.right {
+  text-align: right;
+}
+
+.quote__author {
+  text-align: center;
+}
