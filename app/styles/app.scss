@@ -3,9 +3,7 @@ $c-main-text: white;
 
 @import 'reset';
 @import 'nav';
-
-.index__hero {
-  height: 86vh;
-  background: url('../white-door.jpg') no-repeat fixed;
-  background-size: cover;
-}
+@import 'index';
+@import 'about';
+@import 'contact';
+@import 'links';
