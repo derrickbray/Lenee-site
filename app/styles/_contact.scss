@@ -16,5 +16,9 @@
 
   &-item {
     color: $c-primary;
+    a {
+      color: $c-primary;
+      text-decoration: none;
+    }
   }
 }
