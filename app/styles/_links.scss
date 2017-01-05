@@ -10,3 +10,12 @@
   justify-content: center;
   height: 86vh;
 }
+
+.link__card {
+  &-item {
+    a {
+      color: $c-primary;
+      text-decoration: none;
+    }
+  }
+}
