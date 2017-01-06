@@ -1,5 +1,19 @@
 .about__hero {
   height: 86vh;
-  background: url('../about.jpg') no-repeat fixed;
+  background: url('../white-door.jpg') no-repeat fixed;
   background-size: cover;
+}
+
+.about-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 86vh;
+}
+
+.about__card {
+  margin: auto;
+  width: 30rem;
+  // text-align: center;
+  color: $c-primary;
 }
