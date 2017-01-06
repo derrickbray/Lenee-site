@@ -1,13 +1,16 @@
 .index__hero {
-  // height: 86vh;
   background: url('../old-door.jpg') no-repeat fixed;
   background-size: cover;
 }
 
 .headshot {
+  padding: 1rem;
+  height: 55%;
   text-align: center;
   color: $c-primary;
   font-size: 1.5rem;
+  background: transparentize($c-main-text, 0.65);
+  border-radius: 0.4rem;
 
   &-img {
     border-radius: 50%;
@@ -16,21 +19,29 @@
 
 .quotes {
   display: flex;
+  padding-top: 4rem;
 
   &-left {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: center;
+    padding: 4rem;
     width: 55%;
   }
 
   &-right {
-    width: 45%
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    height: 86vh;
   }
 
   &-item {
-    padding: 4rem 0;
+    margin-bottom: 2rem;
     color: $c-primary;
+    background: transparentize($c-main-text, 0.55);
+    border-radius: 0.4rem;
   }
 
   &__author {
@@ -42,7 +53,3 @@
   font-size: 1.5rem;
 
 }
-
-// .right {
-//   text-align: right;
-// }
