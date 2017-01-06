@@ -4,19 +4,31 @@
   background-size: cover;
 }
 
-.quote-item {
-  padding: 4rem 0;
-  color: $c-primary;
+.quotes {
+  display: flex;
+
+  &-left {
+    width: 70%;
+  }
+
+  &-right {
+  }
+
+  &-item {
+    padding: 4rem 0;
+    color: $c-primary;
+  }
+
+  &__author {
+    text-align: center;
+  }
 }
 
 .quote {
-  font-size: 2rem;
+  font-size: 1.5rem;
+
 }
 
-.right {
-  text-align: right;
-}
-
-.quote__author {
-  text-align: center;
-}
+// .right {
+//   text-align: right;
+// }
