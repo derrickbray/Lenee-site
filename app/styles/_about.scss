@@ -12,11 +12,13 @@
 }
 
 .about__card {
-  // margin: auto;
   text-align: right;
-  color: $c-main-text;
 
   &-item {
     margin-left: 60%;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    color: $c-primary;
+    background: transparentize($c-main-text, 0.5);
   }
 }
