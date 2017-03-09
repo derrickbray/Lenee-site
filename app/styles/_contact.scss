@@ -1,0 +1,24 @@
+.contact__hero {
+  height: 86vh;
+  background: url('../contact.jpg') no-repeat bottom fixed;
+  background-size: cover;
+}
+
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 86vh;
+}
+
+.contact__card {
+  text-align: right;
+
+  &-item {
+    color: $c-primary;
+    a {
+      color: $c-primary;
+      text-decoration: none;
+    }
+  }
+}

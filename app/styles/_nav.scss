@@ -1,0 +1,34 @@
+.nav {
+  padding: 2rem;
+  background: $c-primary;
+  color: $c-main-text;
+}
+
+.nav__flex {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -1rem;
+}
+
+.nav__logo {
+  margin: 0 1rem;
+
+  a {
+    color: $c-main-text;
+    text-decoration: none;
+  }
+}
+
+.nav__links {
+  display: flex;
+  margin: 0;
+
+  &-link {
+    margin: 0.5rem 1rem;
+
+    a {
+      color: $c-main-text;
+      text-decoration: none;
+    }
+  }
+}
